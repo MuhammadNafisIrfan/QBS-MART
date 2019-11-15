@@ -6,6 +6,7 @@ import minuman from './Components/Minuman'
 import Makanan from './Components/Makanan'
 import DetailProduk from './Components/Detailproduk'
 import Detailminuman from './Components/Detailminuman'
+import About from './Components/About'
 
 
 
@@ -17,6 +18,13 @@ const navigator = createStackNavigator({
 
             }
         },
+        About: {
+            screen: About,
+            navigationOptions:{
+                title: 'Tentang Kami'
+    
+                }
+            },
         Makanan: {
             screen: Makanan,
             navigationOptions:{

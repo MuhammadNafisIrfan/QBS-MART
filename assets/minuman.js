@@ -18,7 +18,7 @@ const MINUM =[
         img: require ('./cincau.jpg'),
         name: 'Yeos Cincau',
         desc: 'Bagi yang memiliki penyakit apa saja dapat disembuhkan jika meminum ini dengan obat sesuai resep dokter',
-        harga: 'Rp.5000,00'
+        harga: 'Rp.6.500'
     },
     {
         id: 4,
@@ -32,7 +32,7 @@ const MINUM =[
         img: require ('./esteh.jpg'),
         name: 'Es Teh',
         desc :'Apabila anda depresi , bosan, ngantuk, esteh qbs adalah jawaban dari semuanya !1!1!1!1',
-        harga: 'Rp.5000,00'
+        harga: 'Rp.2.000'
     }
 ]
 
