@@ -4,7 +4,7 @@ const MINUM =[
         img: require ('./tehpucuk.jpg'),
         name: 'Teh Pucuk',
         desc: 'Tenggorokan cekat? mungkin anda kekurangan air minumlah air karna sumber su dekat kaka...',
-        harga: 'Rp.5000,00'
+        harga: 'Rp. 5000'
     },
     {
         id: 2,
@@ -18,21 +18,28 @@ const MINUM =[
         img: require ('./cincau.jpg'),
         name: 'Yeos Cincau',
         desc: 'Bagi yang memiliki penyakit apa saja dapat disembuhkan jika meminum ini dengan obat sesuai resep dokter',
-        harga: 'Rp.6.500'
+        harga: 'Rp. 6.500'
     },
     {
         id: 4,
         img: require ('./ultramilk.jpg'),
         name: 'Ultra Milk',
         desc: 'Minuman susu yang sehat dan berkhasiat',
-        harga: 'Rp.2.500,00'
+        harga: 'Rp. 2.500'
     },
     {
         id: 5,
         img: require ('./esteh.jpg'),
         name: 'Es Teh',
         desc :'Apabila anda depresi , bosan, ngantuk, esteh qbs adalah jawaban dari semuanya !1!1!1!1',
-        harga: 'Rp.2.000'
+        harga: 'Rp. 2.000'
+    },
+    {
+        id: 6,
+        img: require ('./kopijelly.jpg'),
+        name: 'Jelly Kopi',
+        desc :'Minuman Jelly rasa Kopi Ini Memiliki Rasa Kopi Yang Kuat dan Jelly Yang Lembut',
+        harga: 'Rp. 7.000'
     }
 ]
 

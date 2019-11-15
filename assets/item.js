@@ -73,7 +73,7 @@ const DATA = [
     },
     {
         id: 10,
-        name: 'Wafer Kelapa',
+        name: 'Wafer Kalpa',
         company: 'Rp.1.500',
         detailProduk: 'Wafer coklat kelapa, dengan rasa yang lezat ditambah sensasi taburan kelapa renyah di atas wafer berlapis cokelat tebal.',
         stok: '9',
@@ -86,6 +86,46 @@ const DATA = [
         detailProduk: 'Nikmati garingnya kerupuk QBS Mart (supaya hidupmu tidak garing).',
         stok: '27',
         avatar: require ('./kerupuk.jpg')
+    },
+    {
+        id: 12,
+        name: 'Sosis Bakar',
+        company: 'Kecil: Rp. 3.000, Besar: Rp. 6.000',
+        detailProduk: 'Sosis Bakar ini Terbuat dari daging Pilihan dan Bumbu yang Enak Sehingga Menghasilkan Rasa Yang Sangat Enak',
+        stok: '50/hari',
+        avatar: require ('./sosisgoreng.jpg')
+    },
+    {
+        id: 13,
+        name: 'Kornet',
+        company: 'Rp. 2.000',
+        detailProduk: 'Kornet Yang Terbuat Dari daging sapi pilihan ini memiliki rasa yang sangat enak karena dicampur dengan bumbu-bumbu pilihan',
+        stok: '20/hari',
+        avatar: require ('./kornet.jpg')
+    },
+    {
+        id: 14,
+        name: 'Cireng',
+        company: 'Rp. 1.000',
+        detailProduk: 'Cireng Buatan QBS Ini Memiliki Rasa Yang Enak Dan Tekstur Yang Lembut, Serta Ditambah Kuah Yang enak',
+        stok: '15/hari',
+        avatar: require ('./cireng.jpg')
+    },
+    {
+        id: 15,
+        name: 'Donat',
+        company: 'Rp. 2.500',
+        detailProduk: 'Donat Buatan QBS Ini Memiliki Rasa Yang Beragam, Tekstur yang Lembut dan Rasa Yang Sangat Enak',
+        stok: '24/hari',
+        avatar: require ('./donat.jpg')
+    },
+    {
+        id: 16,
+        name: 'Keripik Pangsit',
+        company: 'Rp. 5.000',
+        detailProduk: 'Kalian Mau Beli Keripik Pangsit, Tapi mahal?  Tenang Keripik Pangsit QBS Siap Menemani Anda Dengan Rasanya Yang enak dan Gurih',
+        stok: '50/hari',
+        avatar: require ('./keripikpangsit.jpg')
     }
 ]
 
