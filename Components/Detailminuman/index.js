@@ -14,7 +14,7 @@ export default class Detailminuman extends Component{
         const { navigation } = this.props;
 
         let data = navigation.getParam('data')
-
+ 
     return(
         <ScrollView>
             <View>
@@ -27,7 +27,7 @@ export default class Detailminuman extends Component{
              
                 <Text style={{fontSize: 16, marginTop: 12}}>Deskripsi Produk :</Text>
                 <Text style={{fontSize: 16,marginTop: 4,fontFamily: 'casual'}}>{data.desc}</Text>
-                <Text style={{fontSize: 20, marginTop:100}}>Harga: {data.harga}</Text>
+                <Text style={{fontSize: 20, marginTop:100}}>Stok: {data.barang}</Text>
             </View>
                 </View>
                 

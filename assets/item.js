@@ -126,6 +126,14 @@ const DATA = [
         detailProduk: 'Kalian Mau Beli Keripik Pangsit, Tapi mahal?  Tenang Keripik Pangsit QBS Siap Menemani Anda Dengan Rasanya Yang enak dan Gurih',
         stok: '50/hari',
         avatar: require ('./keripikpangsit.jpg')
+    },
+    {
+        id: 17,
+        name: 'Kriuk',
+        company: 'Rp. 4.000',
+        detailProduk: 'Kriuk Adalah Produk unggulan QBS, Karena Rasanya Yang Enak, gurih dan Harganya yang Murah',
+        stok: '30',
+        avatar: require ('./kriuk.jpg')
     }
 ]
 
