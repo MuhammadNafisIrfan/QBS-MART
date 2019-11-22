@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {View,Text,Image,TouchableOpacity} from 'react-native'
 
-export default class login extends Component{
+export default class Mainmenu extends Component{
 
 Minuman = () =>{
     
