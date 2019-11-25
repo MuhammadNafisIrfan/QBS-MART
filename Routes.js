@@ -1,5 +1,7 @@
 import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
+import {Button} from 'react-native'
+
 
 import MainMenu from './Components/Mainmenu'
 import minuman from './Components/Minuman'
@@ -57,7 +59,7 @@ const navigator = createStackNavigator({
     MainMenu: {
         screen: MainMenu,
         navigationOptions:{
-            title: 'QBS MART',
+            title: 'QBS MART'
             
             // headerShown: false
         } 
