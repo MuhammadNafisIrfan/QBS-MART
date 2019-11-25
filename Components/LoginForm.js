@@ -46,25 +46,24 @@ export default class LoginForm extends Component {
         super(props);
 
         this.state={
-            username:'',
-            password:'',
+            username: '',
+            password: '',
+            result: ''
         }
     }
 
     login = () => {
-        var authUsername = 'Admin'
-        var authPassword = 'quadrant'
+        var authUsername = 'Luthfi'
+        var authPassword = 'device'
+
         var username = this.state.username
         var password = this.state.password
 
-        if(username === authUsername && password === authPassword ){
-            Toast('Login berhasil')
-            
-            this.props.navigation.navigate('Routes')
-        } else{
-            alert('data tidak valid silahkan coba lagi')
+        if(username === authUsername && password === authPassword){
+            this.props.navigation.navigate('Mainmenu')
+        }else{
+            alert('Login Gagal')
         }
-
     }
 
     render() {
@@ -81,7 +80,7 @@ export default class LoginForm extends Component {
                         <View style={{ display: 'flex', flexDirection: 'column', marginTop: 16 }}>
                             <Form style={styles.FormLoginStyle}>
                                 <View style={styles.loginImage} >
-                                    <Image style={{ width: 22, height: 22, tintColor: 'white' }} source={require('../login.png')}></Image>
+                                    <Image style={{ width: 22, height: 22, tintColor: 'white' }} source={require('../user.png')}></Image>
                                     <Image style={{ width: 22, height: 25, tintColor: 'white', marginTop: 44 }} source={require('../lock.png')}></Image>
                                 </View>
                                 <View style={styles.LabelStyle}>

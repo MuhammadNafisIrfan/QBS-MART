@@ -82,7 +82,7 @@ const navigator = createStackNavigator({
     }
 },
     {
-        initialRouteName: 'Mainmenu'
+        initialRouteName: 'LoginForm'
     })
 
 const Routes = createAppContainer(navigator)
