@@ -85,16 +85,16 @@ export default class LoginForm extends Component {
                                 </View>
                                 <View style={styles.LabelStyle}>
                                     <Item floatingLabel>
-                                        <Label onChangeText={ (value) => (this.setState({ username: value}) ) } >
+                                        <Label  >
                                             <Text style={styles.inputStyle}>Username</Text>
                                         </Label>
-                                        <Input style={styles.inputStyle} />
+                                        <Input style={styles.inputStyle} onChangeText={ (value) => (this.setState({ username: value}) ) } />
                                     </Item>
                                     <Item floatingLabel>
-                                        <Label onChangeText={ (value) => (this.setState({password: value}) ) }>
+                                        <Label >
                                             <Text style={styles.inputStyle}>Password</Text>
                                         </Label>
-                                        <Input style={styles.inputStyle} secureTextEntry={true} />
+                                        <Input style={styles.inputStyle} secureTextEntry={true} onChangeText={ (value) => (this.setState({password: value}) ) } />
                                     </Item>
                                 </View>
                                 <TouchableOpacity onPress={this.login}>
