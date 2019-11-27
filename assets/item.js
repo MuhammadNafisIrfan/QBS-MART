@@ -90,9 +90,9 @@ const DATA = [
     {
         id: 12,
         name: 'Sosis Bakar',
-        company: 'Kecil: Rp. 3.000, Besar: Rp. 6.000',
+        company: 'Rp. 3.000 ',
         detailProduk: 'Sosis Bakar ini Terbuat dari daging Pilihan dan Bumbu yang Enak Sehingga Menghasilkan Rasa Yang Sangat Enak',
-        stok: '50/hari',
+        stok: '50',
         avatar: require ('./sosisgoreng.jpg')
     },
     {
@@ -100,7 +100,7 @@ const DATA = [
         name: 'Kornet',
         company: 'Rp. 2.000',
         detailProduk: 'Kornet Yang Terbuat Dari daging sapi pilihan ini memiliki rasa yang sangat enak karena dicampur dengan bumbu-bumbu pilihan',
-        stok: '20/hari',
+        stok: '20',
         avatar: require ('./kornet.jpg')
     },
     {
@@ -108,7 +108,7 @@ const DATA = [
         name: 'Cireng',
         company: 'Rp. 1.000',
         detailProduk: 'Cireng Buatan QBS Ini Memiliki Rasa Yang Enak Dan Tekstur Yang Lembut, Serta Ditambah Kuah Yang enak',
-        stok: '15/hari',
+        stok: '15',
         avatar: require ('./cireng.jpg')
     },
     {
@@ -116,7 +116,7 @@ const DATA = [
         name: 'Donat',
         company: 'Rp. 2.500',
         detailProduk: 'Donat Buatan QBS Ini Memiliki Rasa Yang Beragam, Tekstur yang Lembut dan Rasa Yang Sangat Enak',
-        stok: '24/hari',
+        stok: '24',
         avatar: require ('./donat.jpg')
     },
     {
@@ -124,7 +124,7 @@ const DATA = [
         name: 'Keripik Pangsit',
         company: 'Rp. 5.000',
         detailProduk: 'Kalian Mau Beli Keripik Pangsit, Tapi mahal?  Tenang Keripik Pangsit QBS Siap Menemani Anda Dengan Rasanya Yang enak dan Gurih',
-        stok: '50/hari',
+        stok: '50',
         avatar: require ('./keripikpangsit.jpg')
     },
     {
