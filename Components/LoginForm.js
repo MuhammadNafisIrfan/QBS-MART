@@ -53,8 +53,8 @@ export default class LoginForm extends Component {
     }
 
     login = () => {
-        var authUsername = 'Luthfi'
-        var authPassword = 'device'
+        var authUsername = 'Admin'
+        var authPassword = 'Qbsku'
 
         var username = this.state.username
         var password = this.state.password

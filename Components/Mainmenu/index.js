@@ -35,8 +35,8 @@ export default class Mainmenu extends Component {
 
                     <View style={{ backgroundColor: '#f9b282', marginLeft: 20, height: 150, width: 150, borderRadius: 4, marginTop: 10 }}>
                         <TouchableOpacity>
-                            
-                            <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 20, marginLeft: 16, marginTop: 65, fontFamily: 'casual' }}>Coming Soon</Text>
+                            <Image source={require('../../assets/cobaaja.png')} style={{ opacity: 0.5, margin: 6, width: 100, height: 100, marginLeft: 12 }}></Image>
+                            <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 20, marginLeft: 50, marginTop: 8, fontFamily: 'casual' }}>Calculator</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={{ backgroundColor: '#4b8e8d', marginLeft: 20, height: 150, width: 150, borderRadius: 4, marginTop: 10 }}>
@@ -60,8 +60,8 @@ export default class Mainmenu extends Component {
                     <View style={{ backgroundColor: '#6807f9', marginLeft: 10, height: 150, width: 150, borderRadius: 4, marginTop: 10 }}>
                         <View>
                             <TouchableOpacity>
-                                
-                            <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 20, marginLeft: 16, marginTop: 65, fontFamily: 'casual' }}>Coming Soon</Text>
+                                <Image source={require('../../assets/plus.png')} style={{ opacity: 0.5, margin: 6, width: 100, height: 100, marginLeft: 12 }}></Image>
+                                <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 18, marginLeft: 10, marginTop: 8, fontFamily: 'casual' }}>Tambah Barang</Text>
                             </TouchableOpacity>
                         </View>
                     </View> 
